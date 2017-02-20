@@ -41,7 +41,7 @@
     <option name="OPEN_IN_BROWSER" value="false" />
     <option name="OUTPUT_DIRECTORY" />
   </component>
-  <component name="IdProvider" IDEtalkID="76353B7087AD529B00BF531428905D8B" />
+  <component name="IdProvider" IDEtalkID="A5CFB11424D37F24B249753FE510F775" />
   <component name="ImportConfiguration">
     <option name="VENDOR" />
     <option name="RELEASE_TAG" />
@@ -93,7 +93,7 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" />
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
+    <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
     <library name="Maven: aopalliance:aopalliance:1.0">
