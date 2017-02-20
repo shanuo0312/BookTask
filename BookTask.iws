@@ -4,8 +4,6 @@
     <list default="true" id="605f7931-287d-479d-a197-ff35f89e69d7" name="Default" comment="">
       <change type="DELETED" beforePath="D:\git\data\BookTask\src\Main.java" afterPath="" />
       <change type="DELETED" beforePath="D:\git\data\BookTask\src\hibernate.cfg.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookTask.iml" afterPath="$PROJECT_DIR$/BookTask.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookTask.ipr" afterPath="$PROJECT_DIR$/BookTask.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookTask.iws" afterPath="$PROJECT_DIR$/BookTask.iws" />
     </list>
     <ignored path="BookTask.iws" />
@@ -765,12 +763,12 @@
       <updated>1487558613511</updated>
       <workItem from="1487558614425" duration="920000" />
       <workItem from="1487559747507" duration="13000" />
-      <workItem from="1487559932850" duration="592000" />
+      <workItem from="1487559932850" duration="716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1525000" />
+    <option name="totallyTimeSpent" value="1649000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
