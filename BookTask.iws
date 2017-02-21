@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4ecc4cc-223c-4764-b8ce-427b32a20706" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qq/book/task/App.class" afterPath="$PROJECT_DIR$/target/classes/com/qq/book/task/App.class" />
+    <list default="true" id="5fff3a9d-b739-4715-8490-1b26248f8b53" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/qq/book/task/quartz/SimTriggerImp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/qq/book/task/quartz/TestJob.java" />
+      <change type="MODIFICATION" beforePath="D:\git\data\BookTask\target\classes\com\qq\book\task\App.class" afterPath="D:\git\data\BookTask\target\classes\com\qq\book\task\App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qq/book/task/quartz/DemoJob.class" afterPath="$PROJECT_DIR$/target/classes/com/qq/book/task/quartz/DemoJob.class" />
+      <change type="MODIFICATION" beforePath="D:\git\data\BookTask\target\classes\com\qq\book\task\quartz\QuartzJobManager.class" afterPath="D:\git\data\BookTask\target\classes\com\qq\book\task\quartz\QuartzJobManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/qq/book/task/quartz/QuartzJobSupport.class" afterPath="$PROJECT_DIR$/target/classes/com/qq/book/task/quartz/QuartzJobSupport.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qq/book/task/App.java" afterPath="$PROJECT_DIR$/src/com/qq/book/task/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookTask.iml" afterPath="$PROJECT_DIR$/BookTask.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookTask.ipr" afterPath="$PROJECT_DIR$/BookTask.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BookTask.iws" afterPath="$PROJECT_DIR$/BookTask.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qq/book/task/quartz/DemoJob.java" afterPath="$PROJECT_DIR$/src/com/qq/book/task/quartz/DemoJob.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qq/book/task/quartz/QuartzJobManager.java" afterPath="$PROJECT_DIR$/src/com/qq/book/task/quartz/QuartzJobManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/qq/book/task/quartz/QuartzJobSupport.java" afterPath="$PROJECT_DIR$/src/com/qq/book/task/quartz/QuartzJobSupport.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/quartz.properties" afterPath="$PROJECT_DIR$/target/classes/quartz.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/spring-context.xml" afterPath="$PROJECT_DIR$/src/spring-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring-context.xml" afterPath="$PROJECT_DIR$/target/classes/spring-context.xml" />
     </list>
     <ignored path="BookTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,7 +111,9 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <field_breakpoints converted="true" />
     <method_breakpoints converted="true" />
+    <line_breakpoints converted="true" />
     <exception_breakpoints converted="true">
       <breakpoint_any>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -121,8 +132,6 @@
         <option name="SUSPEND_POLICY" value="SuspendAll" />
       </breakpoint_any>
     </exception_breakpoints>
-    <line_breakpoints converted="true" />
-    <field_breakpoints converted="true" />
   </component>
   <component name="DebuggerSettings">
     <option name="TRACING_FILTERS_ENABLED" value="true" />
@@ -188,11 +197,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/App.java">
+      <file leaf-file-name="QuartzJobManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/quartz/QuartzJobManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42569658" vertical-offset="0" max-vertical-offset="650">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.68503934" vertical-offset="565" max-vertical-offset="6850">
+              <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -211,8 +220,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/qq/book/task/quartz/DemoJob.java" />
+        <option value="$PROJECT_DIR$/src/com/qq/book/task/quartz/QuartzJobSupport.java" />
+        <option value="$PROJECT_DIR$/src/com/qq/book/task/quartz/SimTriggerImp.java" />
+        <option value="$PROJECT_DIR$/src/com/qq/book/task/quartz/QuartzJobManager.java" />
+        <option value="$PROJECT_DIR$/src/com/qq/book/task/quartz/TestJob.java" />
         <option value="$PROJECT_DIR$/src/com/qq/book/task/App.java" />
-        <option value="$PROJECT_DIR$/src/quartz.properties" />
       </list>
     </option>
   </component>
@@ -262,10 +275,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-8" />
-    <option name="width" value="1864" />
-    <option name="height" value="1096" />
+    <option name="x" value="72" />
+    <option name="width" value="1848" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -292,6 +304,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,90 +312,6 @@
               <option name="myItemId" value="BookTask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quartz-2.2.2.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quartz-2.2.2.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quartz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quartz-2.2.2.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quartz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quartz-2.2.2.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -445,26 +374,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="quartz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BookTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -487,7 +401,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="E:/project4/BookInteractivePriServer3" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SearchEverywhereHistoryKey" value="JobStore&#9;PSI&#9;JAVA://org.quartz.spi.JobStore" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -512,6 +431,62 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -522,7 +497,7 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="scalaCoverage" />
       <module name="" />
@@ -538,31 +513,40 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
       <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -593,31 +577,42 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -655,36 +650,6 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -701,18 +666,39 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -732,73 +718,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <list size="1">
@@ -839,16 +758,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4ecc4cc-223c-4764-b8ce-427b32a20706" name="Default" comment="" />
-      <created>1487561046516</created>
+      <changelist id="5fff3a9d-b739-4715-8490-1b26248f8b53" name="Default" comment="" />
+      <created>1487661105432</created>
       <option name="number" value="Default" />
-      <updated>1487561046516</updated>
-      <workItem from="1487561047142" duration="12176000" />
+      <updated>1487661105432</updated>
+      <workItem from="1487661106393" duration="10300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12176000" />
+    <option name="totallyTimeSpent" value="10300000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -871,40 +790,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-8" width="1864" height="1096" extended-state="0" />
-    <editor active="false" />
+    <frame x="72" y="0" width="1848" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953367" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39274612" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3308746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15436241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CVS" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Aspects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -984,38 +903,101 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/spring/SpringUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/quartz.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6097561" vertical-offset="0" max-vertical-offset="575">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.73313785" vertical-offset="150" max-vertical-offset="1100">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/spi/JobStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2283105" vertical-offset="0" max-vertical-offset="2975">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
-            <marker date="1487224183615" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1487224183615" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224183615" expanded="true" signature="-1:-1" placeholder=" { " />
-            <marker date="1487224183615" expanded="true" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/Job.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2283105" vertical-offset="0" max-vertical-offset="657">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.5.RELEASE/spring-context-support-4.2.5.RELEASE.jar!/org/springframework/scheduling/quartz/QuartzJobBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2283105" vertical-offset="0" max-vertical-offset="800">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <marker date="1456333780000" expanded="false" signature="-1:-1" placeholder="/.../" />
+            <marker date="1456333780000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1456333780000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456333780000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/quartz/QuartzJobSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6795422" vertical-offset="300" max-vertical-offset="1000">
-          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.51319647" vertical-offset="300" max-vertical-offset="1050">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
           <folding>
-            <marker date="1487224785153" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1487224785153" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224785153" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224785153" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224785153" expanded="false" signature="-1:-1" placeholder=" { " />
-            <marker date="1487224785153" expanded="false" signature="-1:-1" placeholder=" }" />
-            <marker date="1487224785153" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1487664353486" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1487664353486" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1487664353486" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1487664353486" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1487664353486" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487664353486" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487664353486" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6194825" vertical-offset="393" max-vertical-offset="1800">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <marker date="1487592278442" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592278442" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592278442" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592278442" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592278442" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592278442" expanded="false" signature="-1:-1" placeholder="com.mysql.jdbc.Driver" />
+            <marker date="1487592278442" expanded="false" signature="-1:-1" placeholder="false" />
+            <marker date="1487592278442" expanded="false" signature="-1:-1" placeholder="false" />
+            <marker date="1487592278442" expanded="true" signature="-1:-1" placeholder="false" />
+            <marker date="1487592278442" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592278442" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/spring/SpringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31298906" vertical-offset="0" max-vertical-offset="639">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <marker date="1487224183615" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1487224183615" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1487224183615" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487224183615" expanded="false" signature="-1:-1" placeholder=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.2.5.RELEASE/spring-context-support-4.2.5.RELEASE.jar!/org/springframework/scheduling/quartz/SchedulerFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3827534" vertical-offset="7097" max-vertical-offset="8875">
+        <state vertical-scroll-proportion="0.38768718" vertical-offset="7117" max-vertical-offset="8875">
           <caret line="355" column="26" selection-start-line="355" selection-start-column="26" selection-end-line="355" selection-end-column="26" />
           <folding>
             <marker date="1456333780000" expanded="false" signature="-1:-1" placeholder="/.../" />
@@ -1079,13 +1061,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/JobBuilder.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/impl/RemoteScheduler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3482143" vertical-offset="280" max-vertical-offset="3350">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.34608984" vertical-offset="1617" max-vertical-offset="12275">
+          <caret line="100" column="16" selection-start-line="100" selection-start-column="16" selection-end-line="100" selection-end-column="16" />
           <folding>
             <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
             <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/core/QuartzScheduler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4292845" vertical-offset="4692" max-vertical-offset="37975">
+          <caret line="288" column="23" selection-start-line="288" selection-start-column="23" selection-end-line="288" selection-end-column="23" />
+          <folding>
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="run() → {" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
             <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
@@ -1108,17 +1222,116 @@
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/impl/RemoteScheduler.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/impl/StdScheduler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43875685" vertical-offset="3535" max-vertical-offset="12275">
-          <caret line="178" column="50" selection-start-line="178" selection-start-column="50" selection-end-line="178" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.38768718" vertical-offset="367" max-vertical-offset="5575">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding>
             <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
             <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
@@ -1162,30 +1375,41 @@
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4392971" vertical-offset="0" max-vertical-offset="2375">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1487592860671" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/Scheduler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3482143" vertical-offset="930" max-vertical-offset="3325">
-          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.20292208" vertical-offset="0" max-vertical-offset="3325">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
             <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
@@ -1193,102 +1417,340 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/quartz_mysql_innodb.sql">
+    <entry file="file://$PROJECT_DIR$/src/datasource.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.12149533" vertical-offset="3740" max-vertical-offset="4425">
-          <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/CronScheduleBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34660032" vertical-offset="241" max-vertical-offset="3075">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding>
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_JOB_DETAILS..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_TRIGGERS..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_SIMPLE_TRIGGERS..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_CRON_TRIGGERS..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_SIMPROP_TRIGGERS..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_BLOB_TRIGGERS..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_CALENDARS..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_PAUSED_TRIGGER_GRPS..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_FIRED_TRIGGERS..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_SCHEDULER_STATE..." />
-            <marker date="1487224943445" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..QRTZ_LOCKS..." />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/ScheduleBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40584415" vertical-offset="0" max-vertical-offset="616">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/SimpleTrigger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24350649" vertical-offset="0" max-vertical-offset="725">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/impl/triggers/SimpleTriggerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3457792" vertical-offset="237" max-vertical-offset="10775">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <folding>
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/quartz/DemoJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58049536" vertical-offset="0" max-vertical-offset="646">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.5488959" vertical-offset="2" max-vertical-offset="775">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
           <folding>
-            <marker date="1487224764896" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1487224764896" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224764896" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1487664179325" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1487664179325" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1487664179325" expanded="true" signature="-1:-1" placeholder=" { " />
+            <marker date="1487664179325" expanded="true" signature="-1:-1" placeholder=" }" />
+            <marker date="1487664179325" expanded="true" signature="-1:-1" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/quartz/TestJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27602524" vertical-offset="0" max-vertical-offset="634">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <marker date="1487670769802" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1487670769802" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1487670769802" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5511811" vertical-offset="0" max-vertical-offset="925">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+          <folding>
+            <marker date="1487670827652" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1487670827652" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1487670827652" expanded="true" signature="-1:-1" placeholder="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/quartz/SimTriggerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19685039" vertical-offset="150" max-vertical-offset="1425">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1487670208556" expanded="true" signature="-1:-1" placeholder="/**...*/" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="true" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="true" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" { " />
+            <marker date="1487670208556" expanded="false" signature="-1:-1" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.2/quartz-2.2.2.jar!/org/quartz/TriggerBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38688526" vertical-offset="289" max-vertical-offset="4350">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="/.../" />
+            <marker date="1444596768000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder=" { " />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder=" }" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1444596768000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/quartz/QuartzJobManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59232366" vertical-offset="404" max-vertical-offset="6125">
-          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
-          <folding>
-            <marker date="1487224871122" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="/**...*/" />
-            <marker date="1487224871122" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12966806" vertical-offset="0" max-vertical-offset="964">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.68503934" vertical-offset="565" max-vertical-offset="6850">
+          <caret line="50" column="66" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/quartz.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.533195" vertical-offset="136" max-vertical-offset="1100">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/qq/book/task/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42569658" vertical-offset="0" max-vertical-offset="650">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BookTask</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -3,17 +3,9 @@ import java.text.ParseException;
 import java.util.Date;
 import java.util.Map;
 
-import org.quartz.CronScheduleBuilder;
-import org.quartz.Job;
-import org.quartz.JobBuilder;
-import org.quartz.JobDetail;
-import org.quartz.JobKey;
-import org.quartz.Scheduler;
-import org.quartz.SchedulerException;
-import org.quartz.Trigger;
-import org.quartz.TriggerBuilder;
-import org.quartz.TriggerKey;
+import org.quartz.*;
 import org.quartz.impl.triggers.CronTriggerImpl;
+import org.quartz.impl.triggers.SimpleTriggerImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +18,7 @@ import org.springframework.scheduling.quartz.SchedulerFactoryBean;
  * @Date 2017/02/16
  */
 public class QuartzJobManager {
-	 private final static String JOB_GROUP_NAME = "job_group";
+        private final static String JOB_GROUP_NAME = "job_group";
 	    private final static String TRIGGER_GROUP_NAME = "trigger_group";
 	    private Logger logger = LoggerFactory.getLogger(QuartzJobManager.class);
 
@@ -61,6 +53,35 @@ public class QuartzJobManager {
 	        if (!scheduler.isShutdown())
 	            scheduler.start();
 	    }
+
+        //test
+//        public void addJobTest(String jobName, Class<? extends Job> jobClass, String cronExpression)
+//                throws ParseException, SchedulerException {
+//
+//            JobBuilder jobBuilder = JobBuilder.newJob(jobClass);
+//            jobBuilder.withIdentity(jobName, JOB_GROUP_NAME);
+//            JobDetail jobDetail = jobBuilder.build();
+//
+//            SimpleTrigger strigger = new SimpleTriggerImpl();
+//            strigger.setName("Trigger_1");
+//            strigger.setGroup("Trigger_Group_1");
+//            strigger.setStartTime(new Date());
+//            //设置重复停止时间，并销毁该Trigger对象
+//            java.util.Calendar c = java.util.Calendar.getInstance();
+//            c.setTimeInMillis(System.currentTimeMillis() + 1000 * 1L);
+//            strigger.setEndTime(c.getTime());
+//            strigger.setFireInstanceId("Trigger_1_id_001");
+//            //设置重复间隔时间
+//            strigger.setRepeatInterval(1000 * 1L);
+//            //设置重复执行次数
+//            strigger.setRepeatCount(3);
+//
+//
+//            Scheduler scheduler = schedulerFactory.getScheduler();
+//            scheduler.scheduleJob(jobDetail, trigger);
+//            if (!scheduler.isShutdown())
+//                scheduler.start();
+//        }
 
 	    /**
 	     * 添加JOB

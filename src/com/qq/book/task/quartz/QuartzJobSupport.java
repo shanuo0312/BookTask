@@ -30,7 +30,9 @@ public abstract class QuartzJobSupport extends QuartzJobBean {
 
 	@Override
 	protected void executeInternal( JobExecutionContext context ) throws JobExecutionException {
-		innerIter(context);
+        System.out.println("executeInternal start");
+        innerIter(context);
+        System.out.println("executeInternal end");
 	}
 
 
