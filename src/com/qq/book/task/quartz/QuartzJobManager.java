@@ -1,15 +1,14 @@
 package com.qq.book.task.quartz;
-import java.text.ParseException;
-import java.util.Date;
-import java.util.Map;
-
 import org.quartz.*;
 import org.quartz.impl.triggers.CronTriggerImpl;
-import org.quartz.impl.triggers.SimpleTriggerImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
+
+import java.text.ParseException;
+import java.util.Date;
+import java.util.Map;
 
 /**
  * <p>
@@ -51,7 +50,7 @@ public class QuartzJobManager {
 	        Scheduler scheduler = schedulerFactory.getScheduler();
 	        scheduler.scheduleJob(jobDetail, trigger);
 	        if (!scheduler.isShutdown())
-	            scheduler.start();
+                scheduler.start();
 	    }
 
         //test

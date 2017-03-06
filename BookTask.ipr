@@ -29,7 +29,7 @@
     <option name="OPEN_IN_BROWSER" value="false" />
     <option name="OUTPUT_DIRECTORY" />
   </component>
-  <component name="IdProvider" IDEtalkID="0869726991B9C35324E69B99090DF14D" />
+  <component name="IdProvider" IDEtalkID="0F6211055615B4BDC86BC66E9CDE7F28" />
   <component name="ImportConfiguration">
     <option name="VENDOR" />
     <option name="RELEASE_TAG" />
@@ -72,7 +72,7 @@
       <module fileurl="file://$PROJECT_DIR$/BookTask.iml" filepath="$PROJECT_DIR$/BookTask.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
   </component>

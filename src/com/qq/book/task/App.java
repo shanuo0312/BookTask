@@ -1,14 +1,12 @@
 package com.qq.book.task;
 
-import java.text.ParseException;
-
-import com.qq.book.task.quartz.TestJob;
+import com.qq.book.task.quartz.DemoJob;
+import com.qq.book.task.spring.SpringUtils;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.quartz.SchedulerException;
 
-import com.qq.book.task.quartz.DemoJob;
-import com.qq.book.task.spring.SpringUtils;
+import java.text.ParseException;
 
 public class App {
     private static final Log LOGGER = LogFactory.getLog(App.class);
@@ -17,12 +15,12 @@ public class App {
 		SpringUtils.init();
 		try {
             System.out.println("start add");
-            SpringUtils.getExecutor().removeJob("test-1");
+//            SpringUtils.getExecutor().removeJob("test-1");
 //            SpringUtils.getExecutor().removeJob("test-2");
 //            SpringUtils.getExecutor().removeJob("test-3");
 //            SpringUtils.getExecutor().removeJob("test-4");
 //            SpringUtils.getExecutor().addJob("test-1", DemoJob.class, "0 29 17 * * ?");     //秒、分、时、日、月、周
-            SpringUtils.getExecutor().addJob("test-1", TestJob.class, "0 55 17 * * ?");     //秒、分、时、日、月、周
+            SpringUtils.getExecutor().addJob("test-3", DemoJob.class, "0 09 22 * * ?");     //秒、分、时、日、月、周
             System.out.println("end add");
             //new Object().wait();
         } catch (ParseException e) {
